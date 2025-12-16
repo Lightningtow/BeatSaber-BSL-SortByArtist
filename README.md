@@ -1,2 +1,2 @@
-# BeatSaber-BetterSongList-PlayCount
-Adds a "Play Count" sort for BetterSongList!
+# Beat_Saber-BSL-SortByAuthor
+Adds a "song author" sort for BetterSongList!
