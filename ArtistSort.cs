@@ -8,6 +8,11 @@ using System.Threading;
 using System.Threading.Tasks;
 using IPA.Utilities;
 
+// A huge thank you to SteffanDonal,
+// author of https://github.com/SteffanDonal/BeatSaber-BetterSongList-PlayCount,
+// which I used as the basis for this mod.
+
+
 namespace ArtistSort
 {
     public class ArtistSort : ISorterPrimitive, ISorterWithLegend, ITransformerPlugin
@@ -26,10 +31,10 @@ namespace ArtistSort
             if (string.IsNullOrEmpty(artist)) return "-";
             char c = artist[0];
             // try { c = artist.Trim()[0]; } catch (Exception e) { return "#"; } 
-            if (Char.IsNumber(c)) return "#";
-            if (Char.IsLetter(c)) return c.ToString().ToUpper();
+            if (char.IsNumber(c)) return "#";
+            if (char.IsLetter(c)) return c.ToString().ToUpper();
             Plugin.Log.Info("Artist char not handled: >" + c.ToString() + "< in " + artist);
-            return "#";
+            return "#"; // if misc like starting with ( return '#'
         }
 
         public float? GetValueFor(BeatmapLevel song) => ConvertStringToFloat(song.songAuthorName); // this is the line that determines the actual order of the songs

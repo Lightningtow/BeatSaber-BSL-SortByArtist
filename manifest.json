@@ -1,9 +1,9 @@
 ﻿{
   "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
-  "id": "BeatSaber-BSL-SortByArtist",
-  "name": "ArtistSort",
+  "id": "BetterSongList-ArtistSort",
+  "name": "BetterSongList-ArtistSort",
   "author": "Lightningtow",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "Adds an artist sort for BetterSongList!",
   "gameVersion": "1.40.8",
   "dependsOn": {

@@ -5,11 +5,16 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using IPALogger = IPA.Logging.Logger;
 
-[assembly: AssemblyTitle("ArtistSort")]
+[assembly: AssemblyTitle("BetterSongList-ArtistSort")]
 [assembly: AssemblyFileVersion("1.0.0")]
-[assembly: AssemblyCopyright("MIT License - Copyright © 2024 Steffan Donal")]
+[assembly: AssemblyCopyright("MIT License")]
 
 //[assembly: Guid("f1378c34-e815-4e04-9471-8be443b18e96")]
+
+// A huge thank you to SteffanDonal,
+// author of https://github.com/SteffanDonal/BeatSaber-BetterSongList-PlayCount,
+// which I used as the basis for this mod.
+
 
 namespace ArtistSort
 {

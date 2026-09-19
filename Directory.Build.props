@@ -4,14 +4,14 @@
 
 	<!-- Plugin Metadata -->
 	<PropertyGroup>
-		<PluginId>ArtistSort</PluginId>
-		<PluginName>ArtistSort</PluginName>
+		<PluginId>BetterSongList-ArtistSort</PluginId>
+		<PluginName>BetterSongList-ArtistSort</PluginName>
 		<Authors>Lightningtow</Authors>
-		<Version>0.0.1</Version>
-		<GameVersion>1.40.0</GameVersion>
+		<Version>1.0.1</Version>
+		<GameVersion>1.40.8</GameVersion>
 		<Description>Adds sort by artist to BetterSongList</Description>
 		<!--<PluginIcon></PluginIcon>-->
-		<!--<ProjectSource></ProjectSource>-->
+		<ProjectSource>https://github.com/Lightningtow/BeatSaber-BSL-SortByArtist</ProjectSource>
 		<!--<ProjectHome></ProjectHome>-->
 		<!--<DonateUrl></DonateUrl>-->
 	</PropertyGroup>
@@ -26,8 +26,5 @@
 		<GenerateManifest>true</GenerateManifest>
 	</PropertyGroup>
 
-	<PropertyGroup Condition="'$(Configuration)' != 'Release'">
-		<DisableZipRelease>true</DisableZipRelease>
-	</PropertyGroup>
 
 </Project>
